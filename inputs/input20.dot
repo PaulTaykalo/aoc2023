@@ -1,0 +1,118 @@
+digraph G {
+     node[style=filled];
+cg [fillcolor=yellow];
+cg -> fb, rc
+jz [fillcolor=yellow];
+jz -> lf
+gf [fillcolor=yellow];
+gf -> ld
+gz [fillcolor=yellow];
+gz -> mz, gv
+qd [fillcolor=yellow];
+qd -> ll, mr
+pd [fillcolor=yellow];
+pd -> sq, ll
+lf [fillcolor=yellow];
+lf -> mg
+mk [fillcolor=red];
+mk -> kl
+fp [fillcolor=red];
+fp -> kl
+qh [fillcolor=yellow];
+qh -> gv, vk
+mr [fillcolor=yellow];
+mr -> ll, pd
+gv [fillcolor=red];
+gv -> tz, ss, kx, gz, xt
+rd [fillcolor=yellow];
+rd -> pj, qf
+cl [fillcolor=yellow];
+cl -> tc, qf
+qf [fillcolor=red];
+qf -> pj, zc, jt, jz, lf, mn
+mn [fillcolor=yellow];
+mn -> rd
+dd [fillcolor=yellow];
+dd -> rc, vf
+sg [fillcolor=yellow];
+sg -> qf
+broadcaster -> gz, fh, jt, vj
+jt [fillcolor=yellow];
+jt -> xr, qf
+vf [fillcolor=yellow];
+vf -> cg
+mx [fillcolor=yellow];
+mx -> dm, ll
+gx [fillcolor=yellow];
+gx -> gv
+vk [fillcolor=yellow];
+vk -> gv, gk
+dm [fillcolor=yellow];
+dm -> qd
+ts [fillcolor=yellow];
+ts -> qf, sg
+xt [fillcolor=red];
+xt -> kl
+fl [fillcolor=yellow];
+fl -> dd, rc
+kx [fillcolor=yellow];
+kx -> ss
+fh [fillcolor=yellow];
+fh -> ll, vl
+kq [fillcolor=yellow];
+kq -> nf
+vg [fillcolor=yellow];
+vg -> tx
+nf [fillcolor=yellow];
+nf -> rc, gf
+lb [fillcolor=yellow];
+lb -> gx, gv
+rc [fillcolor=red];
+rc -> vj, fp, gf, kq, vf
+ld [fillcolor=yellow];
+ld -> nz, rc
+kl [fillcolor=red];
+kl -> rx
+ss [fillcolor=yellow];
+ss -> lq
+zh [fillcolor=yellow];
+zh -> ll, zv
+xr [fillcolor=yellow];
+xr -> jz, qf
+mg [fillcolor=yellow];
+mg -> mn, qf
+dh [fillcolor=yellow];
+dh -> rc
+vj [fillcolor=yellow];
+vj -> fl, rc
+lq [fillcolor=yellow];
+lq -> gv, tz
+vl [fillcolor=yellow];
+vl -> ll, vg
+gk [fillcolor=yellow];
+gk -> lb, gv
+nz [fillcolor=yellow];
+nz -> rc, dh
+ps [fillcolor=yellow];
+ps -> gv, kx
+tz [fillcolor=yellow];
+tz -> qh
+fb [fillcolor=yellow];
+fb -> kq, rc
+sq [fillcolor=yellow];
+sq -> ll
+mz [fillcolor=yellow];
+mz -> ps, gv
+pj [fillcolor=yellow];
+pj -> cl
+tx [fillcolor=yellow];
+tx -> zh, ll
+ll [fillcolor=red];
+ll -> mk, fh, vg, zv, dm
+zv [fillcolor=yellow];
+zv -> mx
+tc [fillcolor=yellow];
+tc -> ts, qf
+zc [fillcolor=red];
+zc -> kl
+}
